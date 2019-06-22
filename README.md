@@ -15,4 +15,7 @@ In Context:
 
 `redux` is the main library and `react-redux` is a library that facilitates the interaction between React and Redux.  In short, the latter acts as a proxy between React and Redux.
 
+# Final thought:
+Not really sure what this tutorial showed me.  Was not really clear on where the "state" part came into it.  It works, it's button up, but very short on specifics.  Also: ripping the entire tutorial apart in the middle is no way to teach anything.
+
 
