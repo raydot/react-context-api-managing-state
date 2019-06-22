@@ -1,6 +1,6 @@
 import React from 'react'
-import { connect } from 'react-redux'
-import actions from './actions'
+// import { connect } from 'react-redux'
+// import actions from './actions'
 import './App.css'
 
 function App ({ food, searchTerm, searchTermChanged }) {
@@ -37,7 +37,11 @@ function App ({ food, searchTerm, searchTermChanged }) {
   )
 }
 
-export default connect(store => store, actions)(App)
+// CONTEXT WAY
+export default App
+
+// REDUX WAY
+// export default connect(store => store, actions)(App)
 
 /*
   The connect function is used to encapsulate the App component.  It's an HOC that acts as the glue between App and Redux
